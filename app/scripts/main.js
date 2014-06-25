@@ -51,3 +51,17 @@ $("p").one("click",function(){
 $("body").keydown(function(){
   $("body").css("background-color","red");
 });
+$("p").bind("click",function(){
+  alert("Scroll down please.");
+});
+$(".dblclick").dblclick(function(){
+  $(".lost").show(".lost");
+  alert("Oh NO WHAT HAVE YOU DONE?!!!!!(Lost Reference)")
+});
+$(".dblclick").click(function(event){
+  $(".lost").html(event.result);
+});
+$(".dblclick").keydown(function(){
+  $(".dblclick").text(i+=1);
+});
+$("div").has("img")
