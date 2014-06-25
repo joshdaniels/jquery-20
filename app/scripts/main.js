@@ -56,7 +56,7 @@ $("p").bind("click",function(){
 });
 $(".dblclick").dblclick(function(){
   $(".lost").show(".lost");
-  alert("Oh NO WHAT HAVE YOU DONE?!!!!!(Lost Reference)")
+  alert("Oh NO WHAT HAVE YOU DONE?!!!!!now we are stuck in 1970 something!!!!")
 });
 $(".dblclick").click(function(event){
   $(".lost").html(event.result);
