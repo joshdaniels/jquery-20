@@ -10,9 +10,11 @@ z-index:10;
 width: 1250px;
 }
 header{
-background-color:black;
-height:600px;
+background-image:url("../images/noway.png");
+height:400px;
 position: relative;
+background-repeat:no-repeat;
+
 
 }
 .ad{
@@ -33,6 +35,7 @@ background-image:url("../images/movies1.png");
 width: 931px;
 position:relative;
 height: 400px;
+background-repeat:no-repeat;
 
 }
 .container{
@@ -41,4 +44,22 @@ height: 184px;
 }
 .big-box{
 position:relative;
+}
+
+
+
+.button{
+position: absolute;
+left: 829px;
+}
+.movies-hover2{
+background-image:url("../images/movies2.png");
+width: 931px;
+position:relative;
+height: 400px;
+background-repeat:no-repeat;
+display:none;
+}
+p{
+  color:red;
 }
