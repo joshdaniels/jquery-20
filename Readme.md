@@ -1,3 +1,7 @@
+
+##]|I{•------» ĴǬŮËŖŸ-20 «------•}I|[
+
+
 More jQuery Practice!!
 
 1. Create 20 different jQuery interactions. This will included creating numerous elements in your HTML some will have an event attached while others will be there for you to do something to when an event happens.
@@ -18,5 +22,4 @@ Make sure you create a new Yeoman project for this and make sure you have a gh-p
 
 Last thought. Do NOT overthink this. Have fun, use images etc but don't let this fry your brain. This is meant to teach you a little more of how manipulating the DOM works and how jQuery grabs an element and does something to it.
 
-
-
+This is due tomorrow morning.
